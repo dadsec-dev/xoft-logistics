@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+.sfoot {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109586872927256676/g5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.sfoot-flex {
+    margin: 0;
+    padding: 4rem;
+    display: flex;
+    padding: 6rem 6rem;
+    justify-content: space-between;
+}
+
+.sfoot-side h1 {
+    color: #ffff;
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+.sfoot-side p {
+    color: #ffff;
+    font-size: 15px;
+    line-height: 120%;
+    font-weight: 300;
+    font-family: var(--font-family);
+}
+
+.sfoot-flex a {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    width: 15%;
+    text-decoration: none;
+    color: #BC943C;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+.sfoot-flex a:hover {
+    background-color: #BC943C;
+    color: white;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .sfoot {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109586872927256676/g5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .sfoot-flex {
+        margin: 0;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sfoot-side h1 {
+        color: #ffff;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: var(--font-family);
+    }
+    
+    .sfoot-side p {
+        color: #ffff;
+        font-size: 0.2rem;
+        font-weight: 200;
+        font-family: var(--font-family);
+    }
+    
+    
+    .sfoot-flex a {
+        background: #fff;
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border-radius: 4px;
+        width: 15%;
+        text-decoration: none;
+        color: #BC943C;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 120%;
+        text-transform: uppercase;
+        border: none;
+    }
+
+
+   
+    
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .sfoot {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109586872927256676/g5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .sfoot-flex {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sfoot-side h1 {
+        color: #ffff;
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: var(--font-family);
+    }
+    
+    .sfoot-side p {
+        color: #ffff;
+        font-size: 0.7rem;
+        font-weight: 200;
+        font-family: var(--font-family);
+    }
+    
+    
+.sfoot-flex a {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    width: 15%;
+    text-decoration: none;
+    color: #BC943C;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    border: none;
+}
+
+    
+}
+
+@media screen and (max-width: 550px) {
+
+    .sfoot {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109586872927256676/g5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+
+    .sfoot-flex {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sfoot-side h1 {
+        color: #ffff;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: var(--font-family);
+    }
+    
+    .sfoot-side p {
+        color: #ffff;
+        font-size: 0.2px;
+        font-weight: 200;
+        font-family: var(--font-family);
+    }
+    
+    .sfoot-flex a {
+        background: #fff;
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        border-radius: 4px;
+        width: 15%;
+        text-decoration: none;
+        color: #BC943C;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 120%;
+        text-transform: uppercase;
+        border: none;
+    }
+   
+    
+}

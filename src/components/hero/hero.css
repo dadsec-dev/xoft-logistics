@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+ 
+ 
+.hero {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s3-alpha-sig.figma.com/img/94ee/9e70/929e587c0365ad4e8c75d157cee04f74?Expires=1685318400&Signature=YDfgUMBcMJIxJEVVL4bC8CRz1VTwNKd-dflZdennLs2iXuqzrLnEWe7glIBb0jrU3o8EmaseRPIfxX4tkdTgzMMPVrTDNw7Q4Y~zSANzOvLUBHGygu8tgMfJ3d0Vkhbm7AwGJVRD-hmxEHLuwZm3nDRn26ZFmcupIIQO7muw9OzAq1dHUj3HM4bSlX1IxEKS7NsrAHhMFjnN7vD3xI17iX0HubOZciFXEZDatj-eeVyJg3SqDNuxT34-vhIcHAcBym9CB5IxkuDY0t3gXhfgmyz0VFLCJQesvAUiESY0ciHSgwsurP8rSfjPaFvX1ozhf-h5BvRNxuE9CYcNguQP6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.herotext {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 3rem;
+    width: 70%;
+    font-weight: 500;
+    padding-left: 4rem;
+    padding-top: 18rem;
+    padding-bottom: 25rem;
+    position: relative;
+    z-index: 1;
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   
+}
+
+
+ @-webkit-keyframes herotext  {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  @keyframes herotext  {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+              transform: translateZ(160px);
+    }
+  }
+  
+
+@media screen and (max-width: 1050px) {
+     
+ 
+.hero {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s3-alpha-sig.figma.com/img/94ee/9e70/929e587c0365ad4e8c75d157cee04f74?Expires=1685318400&Signature=YDfgUMBcMJIxJEVVL4bC8CRz1VTwNKd-dflZdennLs2iXuqzrLnEWe7glIBb0jrU3o8EmaseRPIfxX4tkdTgzMMPVrTDNw7Q4Y~zSANzOvLUBHGygu8tgMfJ3d0Vkhbm7AwGJVRD-hmxEHLuwZm3nDRn26ZFmcupIIQO7muw9OzAq1dHUj3HM4bSlX1IxEKS7NsrAHhMFjnN7vD3xI17iX0HubOZciFXEZDatj-eeVyJg3SqDNuxT34-vhIcHAcBym9CB5IxkuDY0t3gXhfgmyz0VFLCJQesvAUiESY0ciHSgwsurP8rSfjPaFvX1ozhf-h5BvRNxuE9CYcNguQP6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.herotext {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    width: 80%;
+    font-weight: 500;
+    padding-left: 4rem;
+    padding-top: 18rem;
+    padding-bottom: 25rem;
+    position: relative;
+    z-index: 1;
+   
+}
+}
+
+@media screen and (max-width: 700px) {
+    
+ 
+.hero {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s3-alpha-sig.figma.com/img/94ee/9e70/929e587c0365ad4e8c75d157cee04f74?Expires=1685318400&Signature=YDfgUMBcMJIxJEVVL4bC8CRz1VTwNKd-dflZdennLs2iXuqzrLnEWe7glIBb0jrU3o8EmaseRPIfxX4tkdTgzMMPVrTDNw7Q4Y~zSANzOvLUBHGygu8tgMfJ3d0Vkhbm7AwGJVRD-hmxEHLuwZm3nDRn26ZFmcupIIQO7muw9OzAq1dHUj3HM4bSlX1IxEKS7NsrAHhMFjnN7vD3xI17iX0HubOZciFXEZDatj-eeVyJg3SqDNuxT34-vhIcHAcBym9CB5IxkuDY0t3gXhfgmyz0VFLCJQesvAUiESY0ciHSgwsurP8rSfjPaFvX1ozhf-h5BvRNxuE9CYcNguQP6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.herotext {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 2.3rem;
+    width: 70%;
+    font-weight: 500;
+    padding-left: 4rem;
+    padding-top: 18rem;
+    padding-bottom: 25rem;
+    position: relative;
+    z-index: 1;
+   
+}
+}
+
+@media screen and (max-width: 550px) {
+     
+ 
+.hero {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s3-alpha-sig.figma.com/img/94ee/9e70/929e587c0365ad4e8c75d157cee04f74?Expires=1685318400&Signature=YDfgUMBcMJIxJEVVL4bC8CRz1VTwNKd-dflZdennLs2iXuqzrLnEWe7glIBb0jrU3o8EmaseRPIfxX4tkdTgzMMPVrTDNw7Q4Y~zSANzOvLUBHGygu8tgMfJ3d0Vkhbm7AwGJVRD-hmxEHLuwZm3nDRn26ZFmcupIIQO7muw9OzAq1dHUj3HM4bSlX1IxEKS7NsrAHhMFjnN7vD3xI17iX0HubOZciFXEZDatj-eeVyJg3SqDNuxT34-vhIcHAcBym9CB5IxkuDY0t3gXhfgmyz0VFLCJQesvAUiESY0ciHSgwsurP8rSfjPaFvX1ozhf-h5BvRNxuE9CYcNguQP6A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.herotext {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 2.3rem;
+    width: 70%;
+    font-weight: 500;
+    padding-left: 4rem;
+    padding-top: 18rem;
+    padding-bottom: 25rem;
+    position: relative;
+    z-index: 1;
+   
+}
+}
+
+
+
+
+

@@ -1,0 +1,239 @@
+.services {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109645914404028507/services.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    width: 100%;
+    height: 250px;
+}
+
+.servicestext {
+    color: #fff;
+    font-family: var(--font-family);
+    color: #A1A1A1;
+    font-size: 5rem;
+    width: 70%;
+    font-weight: 500;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    z-index: 1;
+}
+
+.servtext {
+   
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 150%;
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+}
+
+.serv {
+    padding: 2rem 6rem;
+    font-family: var(--font-family);
+}
+
+.serve-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    
+}
+
+.serveblocks {
+    margin-top: 2rem;
+    display: block;
+    width: 400px;
+    text-align: justify;
+    border: 1px solid #BC943C;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+}
+
+.serveblocks p {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.serveblocks h3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #E3C175;
+    font-size: 1.7rem    ;
+}
+
+.serveblocks img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .services {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109645914404028507/services.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .servicestext {
+        color: #fff;
+        font-family: var(--font-family);
+        color: #A1A1A1;
+        font-size: 4rem;
+        width: 70%;
+        font-weight: 500;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        z-index: 1;
+    }
+    
+    .serv {
+        padding: 2rem 3rem;
+        font-family: var(--font-family);
+    }
+
+    .servtext {
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+   
+    
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .services {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109645914404028507/services.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .servicestext {
+        color: #fff;
+        font-family: var(--font-family);
+        color: #A1A1A1;
+        font-size: 4rem;
+        width: 70%;
+        font-weight: 500;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        z-index: 1;
+    }
+    
+    .serv {
+        padding: 2rem 3rem;
+        font-family: var(--font-family);
+    }
+
+    .servtext {
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+   
+    
+    
+}
+
+@media screen and (max-width: 550px) {
+    .services {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109645914404028507/services.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .servicestext {
+        color: #fff;
+        font-family: var(--font-family);
+        color: #A1A1A1;
+        font-size: 4rem;
+        width: 70%;
+        font-weight: 500;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        z-index: 1;
+    }
+    
+    .serv {
+        padding: 2rem 3rem;
+        font-family: var(--font-family);
+    }
+
+    .servtext {
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .serve-flex  {  grid-template-columns: auto;}
+}

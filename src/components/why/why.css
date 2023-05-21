@@ -1,0 +1,140 @@
+.why {
+    padding: 2rem 6rem;
+    font-family: var(--font-family);
+}
+
+.y {
+    color: #BC943C;
+    /* margin: 0 35%; */
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.why-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    
+}
+
+.blocks {
+    margin-top: 2rem;
+    display: block;
+    width: 400px;
+    text-align: justify;
+    border: 1px solid #BC943C;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+}
+
+.blocks p {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.blocks h3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #E3C175;
+    font-size: 1.7rem    ;
+}
+
+.blocks img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .why {
+        padding: 2rem 3rem;
+        font-family: var(--font-family);
+    }
+
+    .y {
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
+   
+    
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .why {
+        padding: 2rem 3rem;
+        font-family: var(--font-family);
+    }
+
+    .y {
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+   
+    
+}
+
+@media screen and (max-width: 550px) {
+    .why {
+        padding: 2rem 3rem;
+        font-family: var(--font-family);
+    }
+
+    .y {
+        color: #BC943C;
+        /* margin: 0 35%; */
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.3;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .why-flex  {  grid-template-columns: auto;}
+}
