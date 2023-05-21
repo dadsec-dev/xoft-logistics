@@ -188,7 +188,7 @@ text-transform: uppercase;
 
 @media screen and (max-width: 550px) {
     .why {
-        padding: 2rem 3rem;
+        padding: 2rem 0rem;
         font-family: var(--font-family);
     }
 
@@ -210,8 +210,8 @@ text-transform: uppercase;
 .blocks {
     margin-top: 2rem;
     display: block;
-    width: 100%;
-    text-align: justify;
+    width: 80%;
+    text-align: start;
     border: 1px solid #BC943C;
     border-radius: 12px;
     padding: 1rem 2rem;
