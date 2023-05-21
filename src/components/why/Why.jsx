@@ -20,7 +20,7 @@ const Why = () => {
       </div>
 
       <div className="why-flex">
-        <div className="blocks">
+        <div className="blocks" data-aos="slide-up">
           <img src={efficient} alt="" />
 
           <div>
@@ -42,7 +42,7 @@ const Why = () => {
 
 
 
-        <div className="blocks">
+        <div className="blocks" data-aos="slide-up">
           <img src={customized} alt="" />
 
           <div>
@@ -55,7 +55,7 @@ const Why = () => {
         </div>
 
 
-        <div className="blocks">
+        <div className="blocks" data-aos="slide-up">
           <img src={networks} alt="" />
 
           <div>
@@ -69,7 +69,7 @@ const Why = () => {
         </div>
 
 
-        <div className="blocks">
+        <div className="blocks" data-aos="slide-up">
           <img src={expertise} alt="" />
 
           <div>
@@ -83,7 +83,7 @@ const Why = () => {
         </div>
 
 
-        <div className="blocks">
+        <div className="blocks" data-aos="slide-up">
           <img src={customer} alt="" />
 
           <div>

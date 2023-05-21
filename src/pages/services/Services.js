@@ -34,7 +34,7 @@ const Services = () => {
 
       <div className="serve-flex">
 
-      <div className="serveblocks">
+      <div className="serveblocks" data-aos="slide-up">
           <img src={financing} alt="" />
 
           <div>
@@ -47,7 +47,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={door} alt="" />
 
           <div>
@@ -65,7 +65,7 @@ const Services = () => {
 
 
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={marine} alt="" />
 
           <div>
@@ -79,7 +79,7 @@ const Services = () => {
 
 
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={fright} alt="" />
 
           <div>
@@ -91,7 +91,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={project} alt="" />
 
           <div>
@@ -104,7 +104,7 @@ const Services = () => {
         </div>
 
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={warehouse} alt="" />
 
           <div>
@@ -118,7 +118,7 @@ const Services = () => {
         </div>
 
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={stress} alt="" />
 
           <div>
@@ -132,7 +132,7 @@ const Services = () => {
         </div>
 
 
-        <div className="serveblocks">
+        <div className="serveblocks" data-aos="slide-up">
           <img src={trace} alt="" />
 
           <div>
