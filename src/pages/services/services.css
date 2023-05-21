@@ -187,31 +187,31 @@
         background-repeat: no-repeat;
         background-size: 100% 100% ;
         width: 100%;
-        height: 200px;
+        height: 150px;
     }
     
     .servicestext {
         color: #fff;
         font-family: var(--font-family);
         color: #A1A1A1;
-        font-size: 4rem;
+        font-size: 3rem;
         width: 70%;
         font-weight: 500;
-        padding-left: 4rem;
-        padding-top: 4rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
         padding-bottom: 1rem;
         z-index: 1;
     }
     
     .serv {
-        padding: 2rem 3rem;
+        padding: 2rem 1rem;
         font-family: var(--font-family);
     }
 
     .servtext {
         color: #BC943C;
         /* margin: 0 35%; */
-        font-size: 2rem;
+        font-size: 1rem;
         font-weight: 500;
         line-height: 1.3;
         text-align: center;
@@ -221,6 +221,44 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     }
+
+
+.serve-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.serveblocks {
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+    text-align: justify;
+    border: 1px solid #BC943C;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+}
+
+.serveblocks p {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.serveblocks h3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: #E3C175;
+    font-size: 1.7rem    ;
+}
+
+.serveblocks img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
 
    
     

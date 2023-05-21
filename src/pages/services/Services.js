@@ -32,7 +32,7 @@ const Services = () => {
         <h1 data-aos="slide-up">Why Xoft Logistics Limited ?</h1>
       </div> */}
 
-      <div className="serve-flex" data-aos="flip-up">
+      <div className="serve-flex">
 
       <div className="serveblocks">
           <img src={financing} alt="" />

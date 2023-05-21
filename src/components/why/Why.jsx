@@ -19,7 +19,7 @@ const Why = () => {
         <h1 data-aos="slide-up">Why Xoft Logistics Limited ?</h1>
       </div>
 
-      <div className="why-flex" data-aos="flip-up">
+      <div className="why-flex">
         <div className="blocks">
           <img src={efficient} alt="" />
 

@@ -150,6 +150,7 @@
     background-repeat: no-repeat;
     background-size: cover ;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .hero::before {
@@ -165,14 +166,15 @@
 .herotext {
     color: #fff;
     font-family: var(--font-family);
-    font-size: 2.3rem;
-    width: 70%;
-    font-weight: 500;
-    padding-left: 4rem;
-    padding-top: 18rem;
-    padding-bottom: 25rem;
+    font-size: 2rem;
+    width: 50%;
+    font-weight: 300;
+    padding-left: 2rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
     position: relative;
     z-index: 1;
+    
    
 }
 }
