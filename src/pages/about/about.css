@@ -104,13 +104,116 @@
 }
 
 @media screen and (max-width: 700px) {
+    .abut {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109639263705907210/abbt.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+        width: 100%;
+        height: 200px;
+    }
+
+    .abuttext {
+        color: #fff;
+        font-family: var(--font-family);
+        color: #A1A1A1;
+        font-size: 4rem;
+        width: 70%;
+        font-weight: 500;
+        padding-left: 6rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        z-index: 1;
     
+    }
+
+    .asideabut {
+        padding: 2rem 4rem;
+        margin-top: 4rem;
+        font-family: var(--font-family);
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .asideabut img {
+        width: 100%;
+        padding-right: 2rem;
+       
+    }
+    
+    .abouttright h2{
+        font-size: 1.3rem;
+        margin-bottom: 4rem;
+        line-height: 2;
+    }
+    
+    .abouttright p {
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    
+
+
     
     
 }
 
 @media screen and (max-width: 550px) {
-  
+    .abut {
+        margin: 0;
+        padding: 0;
+        background-image: url(https://cdn.discordapp.com/attachments/1105983110744641646/1109639263705907210/abbt.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+        width: 100%;
+        height: 100px;
+    }
+
+    .abuttext {
+        color: #fff;
+        font-family: var(--font-family);
+        color: #A1A1A1;
+        font-size: 2rem;
+        width: 70%;
+        font-weight: 500;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        z-index: 1;
+    
+    }
+
+    .asideabut {
+        padding: 2rem 4rem;
+        margin-top: 4rem;
+        font-family: var(--font-family);
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .asideabut img {
+        width: 100%;
+        padding-right: 2rem;
+       
+    }
+    
+    .abouttright h2{
+        font-size: 1.3rem;
+        margin-bottom: 4rem;
+        line-height: 2;
+    }
+    
+    .abouttright p {
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+    
+    
+
+
    
     
     
