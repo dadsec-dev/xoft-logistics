@@ -204,7 +204,6 @@
     }
     
     .serv {
-        padding: 2rem 1rem;
         font-family: var(--font-family);
     }
 
@@ -226,7 +225,6 @@
 .serve-flex {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
     
 }
 
